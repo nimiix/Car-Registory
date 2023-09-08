@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head><title>Car Registery</title>
+    <script src="https://kit.fontawesome.com/a2b90b3452.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css"></head>
+  <body>
+    <div class="container">
+      <div class="form-box">
+        <h1 id="title">Car Registery</h1>
+        <form id="dataForm">
+          <div class="input-group">
+            <div class="input-field">
+              <input type="text" id="name" placeholder="Name">
+            </div>
+            <div class="input-field">
+              <input type="text" id="platenumber" placeholder="Plate number">
+            </div>
+            <div class="input-field">
+              <input type="text" id="car_type" placeholder="car type">
+            </div>
+            <div class="input-field">
+              <select class="gender" type="gender" id="gender" placeholder="Gender"> 
+                <option value="male">Male</option>
+                <option value="female">Female</option> 
+              </select>
+            </div>
+            <div class="input-field">
+              <input type="tel" id="phone_no" placeholder="Phone number">
+            </div>
+          </div>
+          <div class="btn-field">
+            <button type="button" id="addData">Register</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <hr>
+
+    <table border="1" id="dataTable" class="table-box">
+      <tr class="table-row">
+        <th>Name</th>
+        <th>Plate Number</th>
+        <th>Car Type</th>
+        <th>Gender</th>
+        <th>Phone Number</th>
+        </tr>
+    </table>
+
+    <!-- table -->
+    <!-- <div class="table-box">
+      <div class="table-row table-head" id="dataTable">
+        <div class="tabel-cell">
+          <p>Easy tutorials</p>
+        </div>
+        <div class="tabel-cell">
+          <p>likes</p>
+        </div> 
+        <div class="tabel-cell">
+          <p>comments</p>
+        </div> 
+        <div class="tabel-cell">
+          <p>views</p>
+        </div> 
+      </div>
+    </div> -->
+
+
+    <script src="script.js"></script>
+
+  </body>
+</html>
